@@ -1,0 +1,14 @@
+Package: newIMVC
+Type: Package
+Title: A Robust Integrated Mean Variance Correlation
+Version: 0.1.0
+Authors@R: c(
+    person("Wei", "Xiong", email = "xiongwei@uibe.edu.cn", role = c("aut")),
+    person("Han", "Pan", email = "scott_pan@163.com", role = c("aut", "cre")),
+    person("Hengjian", "Cui", email = "hjcui@bnu.edu.cn", role = c("aut")))
+Description: Measure the dependence structure between two random variables with IMVC and extend IMVC to hypothesis test, feature screening and FDR control. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: splines, quantreg, expm, CompQuadForm, GGMridge, limma
+RoxygenNote: 7.2.3
+
