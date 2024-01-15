@@ -43,7 +43,7 @@ y=2*x1+0.5*x2+3*x3*ifelse(x3<0,1,0)+2*x4+rnorm(n)
 IMVCS(y,x,K=5,d=round(n/log(n)),type="nonlinear")
 #> [1]   1   2  22  12  11  10   3  21  13   9  23  15   4  14   8  20  16   5   6  24  49  18   7 472  19
 #> [26]  25  17 294 473 426  47 326 395  26 178 394 461  27
-###IMVC based gypothesis test###
+###IMVC based hypothesis test###
 n=100
 x=rnorm(n)
 y=2*x+rt(n,2)
